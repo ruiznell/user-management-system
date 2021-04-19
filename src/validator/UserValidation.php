@@ -13,7 +13,7 @@ class UserValidation{
 
     public function validate()
     {   
-       //tutta la logica per la validazione
+       //tutta la logica per la validazione pero es recomendable crear subprocesos
        //$this->firstNameResult = $this->validateFirstName();
        $result = $this->validateFirstName();
        $this->errors[ 'firstName'] = $result;

@@ -1,7 +1,7 @@
 
 <?php
-    //require __DIR__."./src/entity/User.php";
-    //require __DIR__."./src/model/UserModel.php";
+    require __DIR__."./src/entity/User.php";
+    require __DIR__."./src/model/UserModel.php";
     
     
     if ($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -30,6 +30,7 @@
     if ($_SERVER['REQUEST_METHOD'] === 'GET'){
         
     }
+
 
     ?>
     
